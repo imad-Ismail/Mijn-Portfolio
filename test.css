@@ -1,0 +1,75 @@
+body{
+	/*background-image: url(foto.jpg);*/
+	background-size: cover;
+	font-family: arial;
+} 
+nav{
+	position: relative;
+
+}
+ul{
+	float: right;
+	position: relative;
+
+
+}
+li{
+	color: red;
+	display: inline-block;
+	margin-right: 35px;
+	padding: 5px;
+	position: relative;
+
+}
+a{
+	color: red;
+	text-decoration: none;
+	margin:50px 0 0  25px;
+	position: relative;
+}
+.imad{
+
+margin:20px 0 0  30px;
+position: relative;
+
+}
+.foto{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+}
+section{
+    width: 25vw;
+    height: 84vh;
+}
+
+section img{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	
+}
+.se1{
+	position: absolute;
+	left: 0%;
+
+}
+
+.se2{
+	position: absolute;
+	left: 25%;
+
+}
+.se3{
+	position: absolute;
+	left: 50%;
+
+}
+
+.se4{
+	position: absolute;
+	left: 75%;
+
+}
+
