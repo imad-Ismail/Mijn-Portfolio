@@ -1,0 +1,161 @@
+
+body{
+
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden
+}
+
+a{
+	text-decoration: none;
+
+
+		}
+
+
+.phome{
+	
+	margin: 20px;
+	position: absolute;
+	top: 5px;
+	right: 100px;
+	margin-right: 20px;
+		
+}
+.pcontact{
+	
+	margin: 20px;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+		
+
+}
+
+.pi{
+margin: 20px 40px;
+position: relative;
+
+}
+.p{
+	color: rgb(0,0,0,1);
+}
+.p:hover{
+	color: rgb(0,0,0,.5);
+	box-shadow: 0 1px #999;
+	transition-duration: 0.1s;
+}
+
+.contact{
+	width: 800px;
+	height: 550px;
+	background-color: rgb(0,0,0,.0);
+	margin: 25px auto;
+
+
+}
+.mijnnaam{
+	text-align: center;
+	background-color: rgb(0,0,0,.9);
+	color: white;
+	margin: 50px 300px;
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+}
+.mijnnaam:hover{
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin: 50px;
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+
+}
+.lcontact{
+	margin: 25px 373px;
+	font-weight: bold;
+font-family: 'Inconsolata', monospace;
+	font-size: 25px;
+	opacity: .7;
+
+}
+.name{
+	background-color: rgb(200,200,200,.2);
+	display: inline-block;
+	margin:0px 10px;
+	padding: 10px;
+	width: 340px;
+	border:none;
+	font-size: 20px;
+	opacity: .9;
+	color: rgb(0,0,0,.8);
+
+}
+
+.email{
+	background-color: rgb(200,200,200,.2);
+	display: inline-block;
+	margin:0px 10px;
+	padding: 10px;
+	width: 340px;
+	border:none;
+	font-size: 20px;
+	color: rgb(0,0,0,.8);
+}
+.nummer{
+		background-color: rgb(200,200,200,.2);
+    font-size: 20px;
+	margin:30px 10px;
+	padding: 10px;
+	width: 725px;
+	border:none;
+	color: rgb(0,0,0,.8);
+	
+}
+
+.message{
+	background-color: rgb(200,200,200,.2);
+	height: 150px;
+	margin: 15px 10px;
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+	border:none;
+	width: 725px;
+	color: rgb(0,0,0,.8);
+
+
+}
+
+
+.submit{
+	background-color: rgb(0,0,0,.9);
+	color: white;
+	border:none;
+	margin: 10px 10px;
+	width: 90px;
+	height: 35px;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0 5px #999;
+	transition-duration: 0.1s;
+}
+.submit:active{
+	background-color: rgb(0,0,0,.7);
+	box-shadow: 0 0px #666;
+	transform: translateY(4px);
+}
+
+
+::placeholder{
+color: gray;
+position: relative;
+opacity: .7;
+font-size: 15px;
+    }
+form{
+    	border: solid 1px #ccc;
+    	border-radius: 5px;
+    	padding: 10px;
+    }
+

@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+	font-family: 'Inconsolata', monospace;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+	position: relative;
+	margin-right:25px;
+	top: -5px;
+	
+	
+	}
+
+nav{
+	float: right;
+	margin: 20px;
+}
+span{
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+	top: 19px;
+	left: 19px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    top: 187px;
+    left: -275px;
+    position: absolute;
+    opacity: .6;
+
+}
+.title:hover{
+	opacity: .9;
+}
+.dtitle{
+	width: 800px;
+	height: 200px;
+	background-color:;
+	position: relative;
+	top: 70px;
+	left:350px;
+
+}
+
+.info{
+    margin: 111px 72px;
+    font-size: 25px;
+    opacity: .6;
+    width: 500px;
+
+}
+.info:hover{
+	opacity: .9;
+}
+.demo{
+	position: absolute;
+	top: -75px;
+	left: -25px;
+
+}
+.png{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 100px;
+    top: 287px;
+    border-radius: 50%;
+}
+.jpg{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 1119px;
+    top: 137px;
+
+}
+.imgg{
+	width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 57px;
+    top: 37px;
+    border-radius: 50%;
+    animation-duration: 1.05s;
+    animation: ease-in-out 6s medo;
+}
+@keyframes medo {
+	0%{
+		transform: translateY(-300px);
+
+
+	}
+	70%{
+
+		transform: translateY(0px);
+	}
+
+20%{
+		transform: translateY(-100px);
+	}
+
+30%{
+		transform: translateY(-20px);
+	}
+
+40%{
+		transform: translateY(-70px);
+	
+	}
+	50%{
+		transform: translateY(-30px);
+	
+	}
+	60%{
+		transform: translateY(-50px);
+	
+	}
+
+
+
+70%{transform: translateY(-30px);
+		
+	}
+	80%{transform: translateY(-15px);
+		
+	}
+	90%{transform: translateY(-10px);
+		
+	}
+	100%{transform: translateY(0px);
+		
+	}
+
+
+
+
+
+}
+.Html{
+margin: 20px;
+    top: -57px;
+    left: 15px;
+    position: relative;
+    font-size: 25px;
+}
+
+.pHtml{
+    margin: 20px;
+    position: absolute;
+    top: 513px;
+    left: 125px;
+
+}
+.css{
+margin: 20px;
+    top: -57px;
+    left: 15px;
+    position: relative;
+    font-size: 25px;
+
+}
+.pcss{
+    margin: 20px;
+    position: absolute;
+    top: 541px;
+    left: 125px;
+}
+.js{
+margin: 20px;
+    top: -57px;
+    left: 15px;
+    position: relative;
+    font-size: 25px;
+
+
+}
+.pjs{    margin: 20px;
+    position: absolute;
+    top: 567px;
+    left: 125px;
+}
+.php{
+margin: 20px;
+    top: -57px;
+    left: 15px;
+    position: relative;
+    font-size: 25px;
+
+
+}
+.pphp{
+    margin: 20px;
+    position: absolute;
+    top: 594px;
+    left: 125px;
+}

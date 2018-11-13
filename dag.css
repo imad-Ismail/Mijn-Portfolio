@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(light-black-and-white-landscape-316681.jpg);
+	background-size: cover;
+	font-family: Courier New;
+
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+	margin: 10px 10px;
+	position: relative;
+	
+	}
+
+
+.cont{
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 50px 1fr 100px 1fr;
+	
+
+}
+
+.item {
+
+	
+	
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.pi{
+margin: 20px 40px;
+position: relative;
+color: white;
+
+
+}
+
+.item1{
+	grid-column: 4/5;
+	grid-row: 1/2;
+ 	margin: 15px 0 0 100px; 
+
+}
+p{
+	color: white;
+	margin: 30px 0 0 150px;
+	font-weight: bold;
+	font-size: 30px;
+}background-image: url(light-black-and-white-landscape-316681.jpg);
+	background-size: cover;
+	font-family: Courier New;
+
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+	margin: 10px 10px;
+	position: relative;
+	
+	}
+
+
+.cont{
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 50px 1fr 100px 1fr;
+	
+
+}
+
+.item {
+
+	
+	
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.pi{
+margin: 20px 40px;
+position: relative;
+color: white;
+
+
+}
+
+.item1{
+	grid-column: 4/5;
+	grid-row: 1/2;
+ 	margin: 15px 0 0 100px; 
+
+}
+p{
+	color: white;
+	margin: 30px 0 0 150px;
+	font-weight: bold;
+	font-size: 30px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(light-black-and-white-landscape-316681.jpg);
+	background-size: cover;
+	font-family: Courier New;
+
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+	margin: 10px 10px;
+	position: relative;
+	
+	}
+
+
+.cont{
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 50px 1fr 100px 1fr;
+	
+
+}
+
+.item {
+
+	
+	
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.pi{
+margin: 20px 40px;
+position: relative;
+color: white;
+
+
+}
+
+.item1{
+	grid-column: 4/5;
+	grid-row: 1/2;
+ 	margin: 15px 0 0 100px; 
+
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+a:hover {
+opacity: .7;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	opacity: .8;
+}
+h3{
+	text-align: center;
+		opacity: .5;
+}
+.mobil{
+	margin-left: 388px;
+
+}
+.mob{
+    width: 300px;
+	height: 300px;
+}
