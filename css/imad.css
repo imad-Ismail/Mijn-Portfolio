@@ -111,7 +111,9 @@ p{
 .se1:hover{
 	opacity: .7;
 	transition:  1s linear;
-
+	background-image: url("../foto/book1.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
 }
 
 
@@ -125,8 +127,12 @@ p{
 }
 .se2:hover{
 
-	opacity: .7;
+opacity: .7;
 	transition:  1s linear;
+	background-image: url("../foto/code.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	opacity: .8;
 
 }
 
@@ -136,8 +142,11 @@ p{
 	opacity: 0;
 }
 .se3:hover{
-	opacity: .6;
+	opacity: .7;
 	transition:  1s linear;
+	background-image: url("../foto/progrumeer.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
 
 }
 .se4{
@@ -146,7 +155,10 @@ p{
  	opacity: 0;
 }
 .se4:hover{
-	opacity: .8;
+opacity: .7;
 	transition:  1s linear;
+	background-image: url("../foto/photography.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
 }
 
