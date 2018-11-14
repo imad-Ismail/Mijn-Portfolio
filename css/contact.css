@@ -1,7 +1,7 @@
 
 body{
 
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', arial ;
 	overflow: hidden
 }
 
@@ -69,6 +69,7 @@ position: relative;
 	margin: 50px;
 	font-size: 25px;
 	font-family: 'Permanent Marker', cursive;
+		transition: ease-in-out 0.4s;
 
 }
 .lcontact{
@@ -152,6 +153,7 @@ color: gray;
 position: relative;
 opacity: .7;
 font-size: 15px;
+
     }
 form{
     	border: solid 1px #ccc;

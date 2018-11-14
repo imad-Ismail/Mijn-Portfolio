@@ -3,14 +3,17 @@
 	padding: 0;
 }
 /*
-comment via github
+comment - github 
 
 */
 body{
-	background-image: url(web-design-background-montreal-1.jpg);
-	background-size: cover;
-	background-repeat: repeat;
+    background-image: url(../foto/web-design-background-montreal-1.jpg); 
+	background-size: auto;
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', arial ;
 	overflow: hidden;
+	
+
 	font-family: 'Inconsolata', monospace;
 
 }
@@ -18,9 +21,10 @@ body{
 
 a{
 	text-decoration: none;
-	color: white;;
+	color: white;
 	margin: 10px 10px;
 	position: relative;
+	z-index: 2;
 	
 	}
 
@@ -36,16 +40,13 @@ a{
 }
 
 .item {
-
-	
-	
 	grid-column: 1/2;
 	grid-row: 1/2;
 }
 .pi{
 margin: 20px 40px;
 position: relative;
-color: white;;
+color: white;
 z-index: 2;
 
 }
@@ -53,14 +54,18 @@ z-index: 2;
 .item1{
 	grid-column: 4/5;
 	grid-row: 1/2;
- 	margin: 15px 0 0 100px; 
+	position: relative;
+	top: 20px;
+	left: 205px;
+	z-index: 2;
+
+
 
 }
 p{
 	
-    color: white;;
-        margin: 30px 0 0 110px;
-    font-weight: bold;
+    color: white;
+    margin: 30px 90px;
     font-size: 30px;
     border-radius: 25%;
     display: inline-block;
@@ -73,7 +78,7 @@ p{
 .text1{
 	grid-column: 1/2 ;
 	grid-row: 3/4;
-	color: white;;
+	color: white;
 	position: relative;
 }
 
@@ -92,7 +97,8 @@ p{
 .text4{
 	grid-column: 4/5 ;
 	grid-row: 3/4;
-	
+	z-index: 1;
+
 	position: relative;
 
 }
@@ -103,7 +109,7 @@ p{
  	opacity: 0;
 }
 .se1:hover{
-	opacity: .9;
+	opacity: .7;
 	transition:  1s linear;
 
 }
@@ -118,7 +124,8 @@ p{
 	
 }
 .se2:hover{
-	opacity: .9;
+
+	opacity: .7;
 	transition:  1s linear;
 
 }
@@ -126,23 +133,20 @@ p{
 .se3{
 	grid-column: 3/4 ;
 	grid-row: 1/5;
-
 	opacity: 0;
 }
 .se3:hover{
-	opacity: .9;
+	opacity: .6;
 	transition:  1s linear;
 
 }
 .se4{
 	grid-column: 4/5 ;
-	grid-row: 1/5;
-visibility: hidden;
-	opacity: 0;
+	grid-row: 1/5; 
+ 	opacity: 0;
 }
 .se4:hover{
-	opacity: .9;
+	opacity: .8;
 	transition:  1s linear;
-
 }
 

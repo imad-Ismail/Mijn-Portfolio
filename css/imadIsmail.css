@@ -5,6 +5,7 @@
 body{
 
 	font-family: 'Inconsolata', monospace;
+
 }
 
 
@@ -84,68 +85,7 @@ span{
     top: 137px;
 
 }
-.imgg{
-	width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 57px;
-    top: 37px;
-    border-radius: 50%;
-    animation-duration: 1.05s;
-    animation: ease-in-out 6s medo;
-}
-@keyframes medo {
-	0%{
-		transform: translateY(-300px);
 
-
-	}
-	70%{
-
-		transform: translateY(0px);
-	}
-
-20%{
-		transform: translateY(-100px);
-	}
-
-30%{
-		transform: translateY(-20px);
-	}
-
-40%{
-		transform: translateY(-70px);
-	
-	}
-	50%{
-		transform: translateY(-30px);
-	
-	}
-	60%{
-		transform: translateY(-50px);
-	
-	}
-
-
-
-70%{transform: translateY(-30px);
-		
-	}
-	80%{transform: translateY(-15px);
-		
-	}
-	90%{transform: translateY(-10px);
-		
-	}
-	100%{transform: translateY(0px);
-		
-	}
-
-
-
-
-
-}
 .Html{
 margin: 20px;
     top: -57px;

@@ -1,7 +1,7 @@
 var i = 0;
-var txt = 'Imad Ismail';
+var txt = 'Hallo Ik Ben Imad .. Welcom';
 var speed = 100;
-document.getElementById("medo").addEventListener("onmouseover", schrijf());
+// document.getElementById("medo").addEventListener("onmouseover", schrijf());
 
 function schrijf() {
   if (i < txt.length) {
@@ -11,4 +11,3 @@ function schrijf() {
   };
 };
 schrijf();
-
