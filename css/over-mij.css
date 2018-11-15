@@ -1,146 +1,153 @@
-*{
-	margin: 0;
-	padding: 0;
-}
 body{
 
-	font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat' , Arial;
 
+    
 }
-
 
 a{
-	text-decoration: none;
-	color: black;
-	position: relative;
-	margin-right:25px;
-	top: -5px;
-	
-	
-	}
+    text-decoration: none;
 
-nav{
-	float: right;
-	margin: 20px;
-}
-span{
-	margin: 10px;
-	padding: 10px;
-	position: relative;
-	top: 19px;
-	left: 19px;
-}
-.title{
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    top: 187px;
-    left: -275px;
+
+
+        }
+
+
+.phome{
+    
+    margin: 20px;
     position: absolute;
-    opacity: .6;
+    top: 5px;
+    right: 100px;
+    margin-right: 20px;
+        
+}
+.pcontact{
+    
+    margin: 20px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+        
 
+}
+
+.pi{
+margin: 20px 40px;
+position: relative;
+
+}
+.p{
+    color: rgb(0,0,0,1);
+    font-size: 18px;
+
+}
+.p:hover, h1:hover{
+    color: rgb(0,0,0,.5);
+
+    transition-duration: 0.1s;
+}
+
+.mijnnaam{
+    text-align: center;
+    background-color: rgb(0,0,0,.9);
+    color: white;
+    margin: 50px 300px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+  border-radius: 10px;
+
+}
+.mijnnaam:hover{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 50px;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+        transition: ease-in-out 0.4s;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    -webkit-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.39);
+    box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.39);
+
+
+}
+.title {
+    color: grey;
+    font-size: 18px;
 }
 .title:hover{
-	opacity: .9;
+    color: black;
 }
-.dtitle{
-	width: 800px;
-	height: 200px;
-	background-color:;
-	position: relative;
-	top: 70px;
-	left:350px;
+button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
 
 }
-
-.info{
-    margin: 111px 72px;
-    font-size: 25px;
-    opacity: .6;
-    width: 500px;
-
+button:hover, a:hover{
+    opacity: 0.7;
 }
-.info:hover{
-	opacity: .9;
-}
-.demo{
-	position: absolute;
-	top: -75px;
-	left: -25px;
+.flip-card {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
 
 }
-.png{
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    left: 100px;
-    top: 287px;
-    border-radius: 50%;
-}
-.jpg{
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    left: 1119px;
-    top: 137px;
-
-}
-
-.Html{
-margin: 20px;
-    top: -57px;
-    left: 15px;
+.flip-card-inner {
     position: relative;
-    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
 
-.pHtml{
-    margin: 20px;
+}
+.flip-card-front, .flip-card-back {
     position: absolute;
-    top: 513px;
-    left: 125px;
-
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
-.css{
-margin: 20px;
-    top: -57px;
-    left: 15px;
-    position: relative;
-    font-size: 25px;
-
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
 }
-.pcss{
-    margin: 20px;
-    position: absolute;
-    top: 541px;
-    left: 125px;
-}
-.js{
-margin: 20px;
-    top: -57px;
-    left: 15px;
-    position: relative;
-    font-size: 25px;
+.flip-card-back {
+    background-color:  white;
+    color: black;
+    font-size: 20px;
+    transform: rotateY(180deg);
 
 
 }
-.pjs{    margin: 20px;
-    position: absolute;
-    top: 567px;
-    left: 125px;
-}
-.php{
-margin: 20px;
-    top: -57px;
-    left: 15px;
-    position: relative;
-    font-size: 25px;
-
-
-}
-.pphp{
-    margin: 20px;
-    position: absolute;
-    top: 594px;
-    left: 125px;
+.mijn-info {
+text-align: left;
+margin-left: 50px;
+line-height: 30px;
 }

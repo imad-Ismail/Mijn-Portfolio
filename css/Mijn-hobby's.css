@@ -1,7 +1,7 @@
 
 body{
 
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', Arial;
 	overflow: hidden
 }
 
@@ -61,7 +61,7 @@ position: relative;
 	padding: 10px;
 	font-size: 25px;
 	font-family: 'Permanent Marker', cursive;
-  border-radius: 10px;
+  border-radius: 20px 0 20px 0;
 
 }
 .mijnnaam:hover{

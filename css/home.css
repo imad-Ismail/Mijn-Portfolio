@@ -7,7 +7,7 @@ comment - github
 
 */
 body{
-    background-image: url(../foto/web-design-background-montreal-1.jpg); 
+    background-image: url(../foto/background-home.jpg); 
 	background-size: auto;
 	background-repeat: no-repeat;
 	font-family: 'Montserrat', arial ;
@@ -111,7 +111,7 @@ p{
 .se1:hover{
 	opacity: .7;
 	transition:  1s linear;
-	background-image: url("../foto/photography.jpg");
+	background-image: url("../foto/hobby.jpg");
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
 }
@@ -129,7 +129,7 @@ p{
 
 opacity: .7;
 	transition:  1s linear;
-	background-image: url("../foto/code.jpg");
+	background-image: url("../foto/progrumeer.jpg");
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
 	opacity: .8;
@@ -144,7 +144,7 @@ opacity: .7;
 .se3:hover{
 	opacity: .9;
 	transition:  1s linear;
-	background-image: url("../foto/progrumeer.jpg");
+	background-image: url("../foto/over-mij.jpg");
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
 
@@ -157,7 +157,7 @@ opacity: .7;
 .se4:hover{
 opacity: .7;
 	transition:  1s linear;
-	background-image: url("../foto/book1.jpg");
+	background-image: url("../foto/diploma.jpg");
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
 }
