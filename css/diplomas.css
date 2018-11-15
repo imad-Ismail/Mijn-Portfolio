@@ -1,20 +1,13 @@
-*{box-sizing: border-box;}
-
-
+*{box-sizing: border-box;
+}
 body{
 
 	font-family: 'Montserrat', Arial;
-
-	
 }
 
 a{
 	text-decoration: none;
-
-
-
-		}
-
+}
 
 .phome{
 	
@@ -23,16 +16,13 @@ a{
 	top: 5px;
 	right: 100px;
 	margin-right: 20px;
-		
 }
+
 .pcontact{
-	
 	margin: 20px;
 	position: absolute;
 	top: 5px;
 	right: 10px;
-		
-
 }
 
 .pi{
@@ -40,9 +30,11 @@ margin: 20px 40px;
 position: relative;
 
 }
+
 .p{
 	color: rgb(0,0,0,1);
 }
+
 .p:hover{
 	color: rgb(0,0,0,.5);
 	box-shadow: 0 1px #999;
@@ -57,9 +49,9 @@ position: relative;
 	padding: 10px;
 	font-size: 25px;
 	font-family: 'Permanent Marker', cursive;
-  border-radius: 10px;
-
+  border-radius: 20px 0 20px 0;
 }
+
 .mijnnaam:hover{
 	text-align: center;
 	background-color: white;
@@ -68,18 +60,20 @@ position: relative;
 	font-size: 25px;
 	font-family: 'Permanent Marker', cursive;
 		transition: ease-in-out 0.4s;
-
 }
+
 .slideshow-cont {
   max-width: 1000px;
   position: relative;
   margin: auto;
   margin-left: 25%;
 }
+
 .mijnSlides {
   display: none;
 
 }
+
 .voor, .volgende {
   cursor: pointer;
   position: absolute;
@@ -92,15 +86,17 @@ position: relative;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-
 }
+
 .volgende {
   right: 230px;
   border-radius: 3px 0 0 3px;
 }
+
 .voor:hover, .volgenda:hover {
   background-color: rgb(0,0,0,0.8);
 }
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -110,15 +106,16 @@ position: relative;
   width: 100%;
   text-align: center;
 }
+
 .nummertext {
   color: black;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-      top: 94%;
-    left: 37%;
-
+  top: 94%;
+  left: 37%;
 }
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -129,14 +126,16 @@ position: relative;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 .active, dot:hover {
   background-color: #717171;
-
 }
+
 .medo {
   animation-name: medo;
   animation-duration: 1.5s; 
 }
+
 @keyframes medo {
   from {opacity: .4}
   to {opacity: 1  }
