@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Hallo Ik Ben Imad .. welkom';
+var txt = "Deze hobby's waar ik van houd";
 var speed = 100;
 // document.getElementById("medo").addEventListener("onmouseover", schrijf());
 
@@ -11,3 +11,4 @@ function schrijf() {
   };
 };
 schrijf();
+

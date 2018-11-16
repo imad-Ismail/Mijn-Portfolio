@@ -3,7 +3,7 @@ body{
 
 	font-family: 'Montserrat', Arial;
   /*overflow: hidden*/
-  background-image:  url(../foto/background-progrumeer.png);
+  background-image:  url(../foto/Programming-Code-l.jpg);
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -35,10 +35,10 @@ a{
 }
 .progress{
   position: absolute;
-     left: 5%;
-    top: 60%;
-    line-height: 50px;
-    font-size: 25px;
+    left: 30%;
+    top: 30%;
+    line-height: 100px;
+    font-size: 45px;
 
 }
 
@@ -49,7 +49,8 @@ position: relative;
 
 }
 .p{
-	color:wheat;
+	color:white;
+  font-weight: bold;
 }
 .p:hover{
 	color: rgb(250,250,250,.5);
@@ -72,7 +73,7 @@ position: relative;
 	margin: 50px 300px;
 	padding: 10px;
 	font-size: 25px;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Montserrat' , Arial;
   border-radius: 20px 0 20px 0;
 
 }
@@ -82,12 +83,12 @@ position: relative;
 	color: black;
 	margin: 50px;
 	font-size: 25px;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Montserrat' , Arial;
 		transition: ease-in-out 0.4s;
 
 }
 label {
-  color: red;
+  color: #9bd5bc;;
 }
 .foto-pro {
   margin-top: -25px;
@@ -125,7 +126,6 @@ label {
 .dtitle{
 	width: 800px;
 	height: 200px;
-	background-color:;
 	position: relative;
 	top: 70px;
 	left:350px;

@@ -135,7 +135,7 @@ opacity: .7;
 	opacity: .9;
 	transition:  1s linear;
 	background-image: url("../foto/over-mij.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat:no-repeat;
 
 }

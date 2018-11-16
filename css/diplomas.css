@@ -2,11 +2,15 @@
 }
 body{
 
-	font-family: 'Montserrat', Arial;
+	font-family: 'Montserrat' , Arial;
+  overflow: hidden;
 }
 
 a{
 	text-decoration: none;
+}
+#medo{
+  
 }
 
 .phome{
@@ -48,7 +52,7 @@ position: relative;
 	margin: 50px 300px;
 	padding: 10px;
 	font-size: 25px;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Montserrat' , Arial;
   border-radius: 20px 0 20px 0;
 }
 
@@ -58,7 +62,7 @@ position: relative;
 	color: black;
 	margin: 50px;
 	font-size: 25px;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Montserrat' , Arial;
 		transition: ease-in-out 0.4s;
 }
 

@@ -1,7 +1,6 @@
 var i = 0;
-var txt = 'Hallo Ik Ben Imad .. welkom';
+var txt = "Dit zijn mijn diploma's in programmeren";
 var speed = 100;
-// document.getElementById("medo").addEventListener("onmouseover", schrijf());
 
 function schrijf() {
   if (i < txt.length) {

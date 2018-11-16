@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Hallo Ik Ben Imad .. welkom';
+var txt = 'De programmeertalen die ik beheerst';
 var speed = 100;
 // document.getElementById("medo").addEventListener("onmouseover", schrijf());
 
