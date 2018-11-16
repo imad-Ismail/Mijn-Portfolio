@@ -37,9 +37,44 @@ a{
   position: absolute;
     left: 30%;
     top: 30%;
-    line-height: 100px;
-    font-size: 45px;
 
+
+}
+progress {
+  display: block; /* default: inline-block */
+  width: 300px;
+  margin: 2em auto;
+  padding: 4px;
+  border: 0 none;
+  background: #444;
+  border-radius: 14px;
+  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  progress {
+    height: 25px;
+  }
+}
+progress::-webkit-progress-bar {
+    background: transparent;
+}  
+progress::-webkit-progress-value {  
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3); 
+background-image:
+     -webkit-linear-gradient(-45deg, 
+                             transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                             rgba(0,0, 0, .1) 66%, transparent 66%),
+     -webkit-linear-gradient(top, 
+                             rgba(255, 255, 255, .25), 
+                             rgba(0, 0, 0, .25)),
+     -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
 
@@ -88,7 +123,8 @@ position: relative;
 
 }
 label {
-  color: #9bd5bc;;
+  color: #9bd5bc;
+  font-size: 25px;
 }
 .foto-pro {
   margin-top: -25px;
